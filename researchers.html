@@ -6,28 +6,99 @@ body_attr: >-
   data-spy="scroll" data-target="#navbar-year" data-offset="100"
 ---
 
-{% assign pubs_by_year = site.publications | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12">
+            
+            <!-- PI Section -->
+            <section class="mb-5">
+                <h2 class="mb-4">Principal Investigator</h2>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Dr. John Smith</h5>
+                        <p class="card-text text-muted">PhD in Computer Science, University Name (Year)</p>
+                        <p class="card-text">Research Interests: Machine Learning, Natural Language Processing</p>
+                    </div>
+                </div>
+            </section>
 
-<div class="row">
-    <!--<div class="col-12 col-lg-10">
-        {% for year in pubs_by_year %}
-        {% assign num_papers = year.items | size %}
-        <h2 class="pt-4" id="year-{{ year.name }}">{{ year.name }}</h2>
-        <div class="my-0 p-0 bg-white shadow-sm rounded-xl">
-            {% for item in year.items %}
-                {% include widgets/publication_item.html item=item hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}
-            {% endfor %}
+            <!-- PhD Students Section -->
+            <section class="mb-5">
+                <h2 class="mb-4">PhD Students</h2>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Alice Johnson</h5>
+                                <p class="card-text"><small class="text-muted">Started: 2022</small></p>
+                                <p class="card-text">Research: Deep Learning for Image Recognition</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Bob Chen</h5>
+                                <p class="card-text"><small class="text-muted">Started: 2023</small></p>
+                                <p class="card-text">Research: Reinforcement Learning Applications</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Carol Davis</h5>
+                                <p class="card-text"><small class="text-muted">Started: 2023</small></p>
+                                <p class="card-text">Research: Natural Language Understanding</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Past Members Section -->
+            <section class="mb-5">
+                <h2 class="mb-4">Past Members</h2>
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Name</th>
+                                <th>Position</th>
+                                <th>Period</th>
+                                <th>Current Affiliation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Dr. Emma Wilson</td>
+                                <td>PhD Student</td>
+                                <td>2019-2023</td>
+                                <td>Research Scientist at Tech Corp</td>
+                            </tr>
+                            <tr>
+                                <td>Dr. Frank Brown</td>
+                                <td>Postdoctoral Researcher</td>
+                                <td>2021-2023</td>
+                                <td>Assistant Professor at University XYZ</td>
+                            </tr>
+                            <tr>
+                                <td>Grace Lee</td>
+                                <td>Masters Student</td>
+                                <td>2022-2023</td>
+                                <td>Software Engineer at StartUp Inc</td>
+                            </tr>
+                            <tr>
+                                <td>Dr. Henry Martinez</td>
+                                <td>PhD Student</td>
+                                <td>2018-2022</td>
+                                <td>Principal Researcher at AI Labs</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
         </div>
-        {% endfor %}
     </div>
-
-    <div class="col-2 d-none d-lg-block">
-        <div id="navbar-year" class="nav nav-pills flex-column sticky-top" style="top: 80px">
-            {% for year in pubs_by_year %}
-            <a class="nav-link d-block" href="#year-{{ year.name }}">{{ year.name }}</a>
-            {% endfor %}
-        </div>
-      
-    </div>-->
-
 </div>
