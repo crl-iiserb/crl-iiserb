@@ -5,7 +5,7 @@ navbar_name: "Your Name"
 positions:
 - name: Title or Position
 - name: Affiliation Name
-  logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
+  logo: /assets/images/iiserb_logo.png  # Logo is optional
 
 
 email: "your@email.com"
@@ -22,12 +22,10 @@ twitter: your_twitter_id  # Do not include the '@' symbol
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    A <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">bicolor cat</a> is a cat with white fur combined with fur of some other colour, for example solid black, tabby, or colourpointed.
-  </p>
+    Welcome to Cryptography Research Lab</p>
   <p>
-    There are various patterns of a bicolour cat. These range from the Van-patterned (colour on the crown of the head 
-    and the tail only) to a solid colour with a throat locket or medallion. Bicolour coats are found in many cat breeds, 
-    as well as being common in domestic longhair and domestic shorthair cats.
+    Crpytography emerged as an art of secure communication from medival to modern age. Untill in modern age where the access to computers and internet emerge, new security problem arises.
+    These helped to make this field more formal and mathematically sound. (Make it coharent and sound)
   </p>
 
 portrait_url: /assets/images/photos/portrait.jpg
@@ -36,7 +34,7 @@ portrait_caption: >-
 
 education:
 - name: Indian Institute of Science Education and Research, Bhopal
-  logo: /assets/images/badges/MIT_Social_circle.png
+  logo: /assets/images/iiserb_logo.png
   position: >- 
     Department of Electrical Engineering and Computer Science <br/>
     date: Sep. 2024 - present 
