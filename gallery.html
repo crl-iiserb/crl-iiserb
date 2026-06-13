@@ -6,7 +6,7 @@ body_attr: >-
   data-spy="scroll" data-target="#navbar-year" data-offset="100"
 ---
 </div>                    
-  <img src="{{ site.baseurl }}/assets/images/lab_group_photo.jpg" alt="Cryptography Research Lab at IISERB" style="height: 500px; width: 500px;">
+  <img src="{{ site.baseurl }}/assets/images/lab_group_photo.jpg" alt="Cryptography Research Lab at IISERB" style="height: 300px; width: 200px;">
  <div>
 {% assign pubs_by_year = site.publications | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
 
