@@ -1,58 +1,45 @@
 primary_name: "Cryptography Research Lab"
-secondary_name: ""
-navbar_name: "Your Name"
+secondary_name: "IISER Bhopal"
+navbar_name: "Crypto Research Lab"
 
 positions:
-- name: Title or Position
-- name: Affiliation Name
-  logo: /assets/images/iiserb_logo.png  # Logo is optional
+  - name: Department of Electrical Engineering and Computer Science
+  - name: Indian Institute of Science Education and Research, Bhopal (IISERB)
+    logo: /assets/images/iiserb_logo.png 
 
+email: "crl.iiserb@gmail.com"
+# cv_link: link-to-lab-profile-or-brochure
+gscholar: xFmQpf4AAAAJ  #PI's Google Scholar ID
+github: lab_github_id
+twitter: lab_twitter_id  
+# linkedin: lab-linked-in-id
 
-email: "your@email.com"
-# cv_link: link-to-your-cv-file
-gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
-github: your_github_id
-twitter: your_twitter_id  # Do not include the '@' symbol
-# wechat_qrcode: /assets/images/etc/wechat.jpg
-# wechat_prompt: >-
-#   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
-# linkedin: your-linked-in-id
-# orcid: 0000-0000-0000-0000
-
-short_bio_text_justify: false
+short_bio_text_justify: true
 short_bio: >-
   <p>
-    Welcome to Cryptography Research Lab</p>
+    Welcome to the <strong>Cryptography Research Lab</strong> at IISER Bhopal.
+  </p>
   <p>
-    Crpytography emerged as an art of secure communication from medival to modern age. Untill in modern age where the access to computers and internet emerge, new security problem arises.
-    These helped to make this field more formal and mathematically sound. (Make it coharent and sound)
+    Cryptography originally emerged as an historic art of secure communication, evolving continuously into the modern digital age. With the ubiquity of global computing infrastructure and the internet, novel and sophisticated security challenges have surfaced. 
+    Our lab focuses on addressing these critical vulnerabilities by leveraging rigorous computational frameworks to build advanced, mathematically sound cryptographic systems capable of safeguarding next-generation infrastructure.
   </p>
 
-portrait_url: /assets/images/photos/portrait.jpg
+portrait_url: /assets/images/photos/lab_group_photo.jpg
 portrait_caption: >-
-  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+  Cryptography Research Lab IISER Bhopal.
 
+# Repurposing "education/experience" metadata blocks to represent Lab Location / Affiliation
 education:
-- name: Indian Institute of Science Education and Research, Bhopal
-  logo: /assets/images/iiserb_logo.png
-  position: >- 
-    Department of Electrical Engineering and Computer Science <br/>
-    date: Sep. 2024 - present 
-- name: Peking University
-  logo: /assets/images/badges/PKU_red.png
-  position: B.S. in Computer Science
-  date: Sep. 2019 - Jul. 2021
+  - name: Indian Institute of Science Education and Research, Bhopal
+    logo: /assets/images/iiserb_logo.png
+    position: >- 
+      Department of Electrical Engineering and Computer Science <br/>
+    date: Est. Sep. 2024 - Present
 
-# experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2019 - Jul. 2021
-
+# Selected Group Achievements / Major Grants / Milestones
 awards:
-- name: Award Name 2
-  date: 2024
-- name: Award Name 1 
-  date: 2021
-- name: A quick brown fox jumps over the lazy dog and runs away award
-  date: 2021
+  - name: Project Title (Rs. X.X Cr)
+    date: 2026
+  - name: Conference / Recognition
+    date: 2025
+
