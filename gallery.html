@@ -1,14 +1,16 @@
 ---
 layout: default
-title : Researchers
-navbar_title: Researchers
+title : Gallery
+navbar_title: Gallery
 body_attr: >-
   data-spy="scroll" data-target="#navbar-year" data-offset="100"
 ---
-
+</div>
+  <img src="{{ site.baseurl }}/assets/images/lab_group_photo.jpg" alt="Cryptography Research Lab at IISERB"">
+ <div>
 {% assign pubs_by_year = site.publications | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
 
-<div class="row">
+<!--<div class="row">>
     <!--<div class="col-12 col-lg-10">
         {% for year in pubs_by_year %}
         {% assign num_papers = year.items | size %}
@@ -30,4 +32,5 @@ body_attr: >-
       
     </div>-->
 
-</div>
+
+                        
